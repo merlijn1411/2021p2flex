@@ -43,28 +43,24 @@ body {
     height:600px;
     width: 600px;
 }
-.pawn
-{
+.pawn{
     position: absolute;
     top: 0px;
     background-size: contain;
     width:20px;
     height:20px;
+    display:none;
 }
-.pawn0
-{
+.pawn0{
     background-image:url(img/pawn0.png) ;
 }
-.pawn1
-{
+.pawn1{
     background-image:url(img/pawn1.png) ;
 }
-.pawn2
-{
+.pawn2{
     background-image:url(img/pawn2.png) ;
 }
-.pawn3
-{
+.pawn3{
     background-image:url(img/pawn3.png) ;
 }
 
