@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="index.js"></script>
 </head>
-<body>
+<body onload="init()">
     
 
         <div class="selectplayer">
@@ -18,12 +18,10 @@
             <div class="ui">
                 <div class="roll"></div>                
                 <div class="playerturn"></div>
-                
-            
             </div>
-            <div class="board">
-                
-        
+            <div id="board">
+
+
             </div>
             <div class="pawn pawn0"></div>
             <div class="pawn pawn1"></div>
@@ -32,6 +30,5 @@
             <div class="boardoverlay"></div>
         </div>
         <div class="winner"></div>
-        
 </body>
 </html>
